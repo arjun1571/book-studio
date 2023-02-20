@@ -9,27 +9,27 @@ const About = () => {
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, quasi.</p>
             <p>Lorem ipsum dolor sit amet.</p>
             </div>
-            <div className='flex'>
-                <div className='m-10 w-1/2'>
-                    <h1>A function to add extra logic for determining whether the link is active. This should be used if you want to do more than verify that the link's pathname</h1>
-                    <h1>A function to add extra logic for determining whether the link is active. This should be used if you want to do more than verify that the link's pathname</h1>
-                    <h1>A function to add extra logic for determining whether the link is active. This should be used if you want to do more than verify that the link's pathname</h1>
-                    <h1>A function to add extra logic for determining whether the link is active. This should be used if you want to do more than verify that the link's pathname</h1>
-                    <h1>A function to add extra logic for determining whether the link is active. This should be used if you want to do more than verify that the link's pathname</h1>
-                    <h1>A function to add extra logic for determining whether the link is active. This should be used if you want to do more than verify that the link's pathname</h1>
-                    <h1>A function to add extra logic for determining whether the link is active. This should be used if you want to do more than verify that the link's pathname</h1>
-                    <h1>A function to add extra logic for determining whether the link is active. This should be used if you want to do more than verify that the link's pathname</h1>
+            <div className='gird md:grid-cols-2  lg:grid-cols-2 sm:grid-cols-1'>
+                <div className='lg:w-1/2'>
+                    <h1>A function to add extra logic for determining whether the link is active. <br /> This sh verify that the link's pathname</h1>
+                    <h1>A function to add extra logic for determining whether the link is active. <br />This shoverify that the link's pathname</h1>
+                    <h1>A function to add extra logic for determining whether the link is active. <br />This shoverify that the link's pathname</h1>
+                    <h1>A function to add extra logic for determining whether the link is active. <br />This shoverify that the link's pathname</h1>
+                    <h1>A function to add extra logic for determining whether the link is active. <br />This shoverify that the link's pathname</h1>
+                    <h1>A function to add extra logic for determining whether the link is active. <br />This shoverify that the link's pathname</h1>
+                    <h1>A function to add extra logic for determining whether the link is active. <br />This shoverify that the link's pathname</h1>
+                    <h1>A function to add extra logic for determining whether the link is active. <br />This shoverify that the link's pathname</h1>
                     
                 </div>
-                <div className='m-10 w-1/2'>
-                <h1>A function to add extra logic for determining whether the link is active. This should be used if you want to do more than verify that the link's pathname</h1>
-                <h1>A function to add extra logic for determining whether the link is active. This should be used if you want to do more than verify that the link's pathname</h1>
-                <h1>A function to add extra logic for determining whether the link is active. This should be used if you want to do more than verify that the link's pathname</h1>
-                    <h1>A function to add extra logic for determining whether the link is active. This should be used if you want to do more than verify that the link's pathname</h1>
-                    <h1>A function to add extra logic for determining whether the link is active. This should be used if you want to do more than verify that the link's pathname</h1>
-                    <h1>A function to add extra logic for determining whether the link is active. This should be used if you want to do more than verify that the link's pathname</h1>
-                    <h1>A function to add extra logic for determining whether the link is active. This should be used if you want to do more than verify that the link's pathname</h1>
-                    <h1>A function to add extra logic for determining whether the link is active. This should be used if you want to do more than verify that the link's pathname</h1>
+                <div className=''>
+                    <h1>A function to add extra logic for determining whether the link is active. This<br /> should be ust the link's pathname</h1>
+                    <h1>A function to add extra logic for determining whether the link is active. This<br /> should be ust the link's pathname</h1>
+                    <h1>A function to add extra logic for determining whether the link is active. This<br /> should be ust the link's pathname</h1>
+                    <h1>A function to add extra logic for determining whether the link is active. <br />This should b that the link's pathname</h1>
+                    <h1>A function to add extra logic for determining whether the link is active. <br />This should b that the link's pathname</h1>
+                    <h1>A function to add extra logic for determining whether the link is active. <br />This should b that the link's pathname</h1>
+                    <h1>A function to add extra logic for determining whether the link is active. <br />This should b that the link's pathname</h1>
+                    <h1>A function to add extra logic for determining whether the link is active. <br />This should b that the link's pathname</h1>
                 </div>
             </div>
         </div>
