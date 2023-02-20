@@ -1,20 +1,24 @@
 import React from 'react';
+import "./Home.css"
+import image from "../../../img/img.jpg"
 
 const Home = () => {
     return (
-        <div className='flex w-1/2 m-20'>
-            <div>
-                <p >ON SALE!</p>
-                <h1>Areader lives a </h1>
-                <h1>thousand lives <span>before he dies</span> </h1>
-                <p>
+        <div className='flex m-20 '>
+            <div className='lg:w-1/2 md:w-0 p-3'>
+                <h1 className='my-2 bg-amber-400 p-2 rounded-lg w-24'>ON SALE!</h1>
+                <h1 className='text-xl font-bold'>Areader lives a </h1>
+                <h1 className='text-xl font-bold'>thousand lives <span className='text-orange-700 text-2xl'>before he dies</span> </h1>
+                <p className='my-3'>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae sapiente omnis fugiat corporis magni debitis repudiandae in? Optio, tempora commodi.
                 </p>
-                <button className="btn">Visit Store</button>
-                <button>Learn more</button>
+                <div className='mt-5 '>
+                <button className="btn mr-3">Visit Store</button>
+                <button >Learn more</button>
+                </div>
             </div>
-            <div className='w-1/2'>
-                <img className='m-10 h-48 w-96' src="https://img.freepik.com/premium-vector/web-design-ui-ux-programmer-with-computer-software-developer-flat-illustration-vector_128772-1138.jpg" alt="" />
+            <div className='w-1/2  img-style'>
+                <img className=' rounded p-3' src={image} alt="" />
             </div>
         </div>
     );
