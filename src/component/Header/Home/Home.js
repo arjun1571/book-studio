@@ -17,7 +17,7 @@ const Home = () => {
                 <button >Learn more</button>
                 </div>
             </div>
-            <div className='w-1/2  img-style'>
+            <div className='w-1/2  '>
                 <img className=' rounded p-3' src={image} alt="" />
             </div>
         </div>
